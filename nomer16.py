@@ -1,7 +1,7 @@
-def tirtle(s):
+def title(s):
     return ' '.join(word.capitalize()
 for word in s.split())
 
-print(tirtle("hello world"))
+print(title("hello world"))
     
                     
